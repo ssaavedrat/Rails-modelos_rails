@@ -3,5 +3,12 @@
 <form action="/pages/create" method="get" >
   <input name="name">
   <input name="age">
+  <input name="email">
   <input type="submit" value="Enviar">
 </form>
+
+<%User.all.each do |i|%>
+    <p>Nombre: <%= i.name %></p>
+    <p>Edad: <%= i.age %></p>
+    <p>Email: <%= i.email %></p>
+<%end%>
