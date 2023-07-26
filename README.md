@@ -1,24 +1,5 @@
-# README
+# Rails - Modelos Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Repositorio de ejemplo de modelo en Rails.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Este ejemplo muestra una forma didáctica de ingresar datos a una base de datos en Rails. Sin embargo, no es apto para producción, ya que utiliza el método GET para enviar nuevas entradas.
